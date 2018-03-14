@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'QanelasBlack';
+    src: url('QanelasBlack.eot');
+    src: url('QanelasBlack.eot') format('embedded-opentype'),
+         url('QanelasBlack.woff2') format('woff2'),
+         url('QanelasBlack.woff') format('woff'),
+         url('QanelasBlack.ttf') format('truetype'),
+         url('QanelasBlack.svg#QanelasBlack') format('svg');
+}

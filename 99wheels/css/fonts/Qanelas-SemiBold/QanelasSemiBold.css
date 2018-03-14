@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'QanelasSemiBold';
+    src: url('QanelasSemiBold.eot');
+    src: url('QanelasSemiBold.eot') format('embedded-opentype'),
+         url('QanelasSemiBold.woff2') format('woff2'),
+         url('QanelasSemiBold.woff') format('woff'),
+         url('QanelasSemiBold.ttf') format('truetype'),
+         url('QanelasSemiBold.svg#QanelasSemiBold') format('svg');
+}

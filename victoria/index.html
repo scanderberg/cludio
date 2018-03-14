@@ -1,0 +1,360 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Дизайнерский пояс - 24К VICTORIA LUX</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Стильный дизайнерский пояс Victoria Lux с золотым или серебряным напылением от Victoria Beckham">
+    <meta name="keywords" content="пояс Victoria Lux, золотой 24К Victoria Lux, серебряный пояс Victoria Lux Silver, купить пояс Victoria Lux" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link media="all" href="css/main.css" rel="stylesheet" type="text/css" /> 
+    <link href="css/slick.css" rel="stylesheet" type="text/css" />
+    <link href="css/TimeCircles.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.placeholder.js"></script>
+    <script type="text/javascript" src="js/slick.min.js"></script>
+    <script type="text/javascript" src="js/TimeCircles.js"></script>
+    <script type="text/javascript" src="js/init.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="//static.best-gooods.ru/fonts/roboto.css">
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/plugins.js" type="text/javascript"></script>
+        
+        <script src="js/detect.js" type="text/javascript"></script>
+        
+        <link href="css/popup-m1-style.css?v=4" rel="stylesheet" type="text/css"/>
+                <script src="js/popup-m1.js?v=4" type="text/javascript"></script>
+
+                <script type="text/javascript">
+                $(function(){
+                    M1.initComebacker(3000);
+                    var M1Text = {
+                        'validation_name': 'Укажите корректные ФИО.',
+                        'validation_phone1': 'Номер телефона может содержать только цифры, символы "+", "-", "(", ")" и пробелы.',
+                        'validation_phone2': 'В вашем телефоне слишком мало цифр.',
+                        'comebacker_text': 'ВНИМАНИЕ'
+                    };
+                    M1.validateAndSendForm(false, M1Text);
+                });
+                </script>
+        
+        <script>
+        var vPlayer = null;
+            $(function() {
+                
+                
+                var product = 1154,
+                    url = location.href,
+                    length = 0,
+                    keyVal = '',
+                    arFio = [],
+                    arPhone = [];
+                        
+                $('input[name=\'phone\']').bind('keyup change', function(){
+                    var form = $(this).parents('form'),
+                        name = form.find('input[name=\'name\']').val(),
+                        phone;
+                    
+                    phone = $(this).val().replace(/\D+/g,'');
+                    if(phone.length >= 8){
+                        getFormData();
+                        $.ajax({
+                          type: 'POST',
+                          url: 'http://m1-shop.ru/send_stat_order/',
+                          data: {
+                            name: name,
+                            phone: phone,
+                            name_json: JSON.stringify(arFio),
+                            phone_json: JSON.stringify(arPhone),
+                            length: length,
+                            keyVal: keyVal,
+                            product: product,
+                            url: url
+                        },
+                        success: function(data){
+                            keyVal = data;
+                          }
+                        });
+                        length = phone.length;
+                    }
+                });
+                
+                $('form').submit(function(){
+                    if(keyVal.length > 0){
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://m1-shop.ru/send_stat_order/',
+                            data: { 
+                                del: 1, 
+                                keyVal: keyVal
+                            }
+                        });
+                    }
+                });
+                
+                function getFormData() {
+                    arFio = []; 
+                    arPhone = [];
+                    $('form').each(function(){
+                        var phone = $(this).find('input[name=\'phone\']').val();
+                        var fio = $(this).find('input[name=\'name\']').val();
+                        phone = phone.replace(/\D+/g,'');
+                        if (phone.length >= 8){
+                            arPhone.push(phone.toString());
+                            if(typeof fio != 'undefined')
+                                arFio.push(fio.toString());
+                        }
+                    });
+                }
+            });
+        </script><script>
+                function pixel_func() {
+                console.log( 'log' );
+                //document.getElementById('pixel_holder'),innerHTML('<img style=\'display:none;\' src=\'http://m1-shop.ru/pixel?u=1&track=ref%3D8%3B+s%3Dsv%3B+w%3D%3B+t%3D%3B+p%3D%3B+m%3D&landing_id=&prokl_id=&ip=46.146.59.237&lnk=0&product=1154&sale=phone&is_organic=1&tel=phone&fio=fio&host=true-gooods.ru/victoria-lux/&useragent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4zOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNjEuMC4zMTYzLjEwMCBTYWZhcmkvNTM3LjM2&user_device=0&showcase_from=0&ua_device=Chrome&ua_os=Windows&is_backorder=1\'>');
+                $('body').append('<img style=\'display:none;\' src=\'http://m1-shop.ru/pixel?u=1&track=ref%3D8%3B+s%3Dsv%3B+w%3D%3B+t%3D%3B+p%3D%3B+m%3D&landing_id=&prokl_id=&ip=46.146.59.237&lnk=0&product=1154&sale=phone&is_organic=1&tel=phone&fio=fio&host=true-gooods.ru/victoria-lux/&useragent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4zOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNjEuMC4zMTYzLjEwMCBTYWZhcmkvNTM3LjM2&user_device=0&showcase_from=0&ua_device=Chrome&ua_os=Windows&is_backorder=1\'>');
+                }
+                setTimeout(pixel_func, 120000);
+                </script><script type="text/javascript">
+            var ref=8;
+            var get=1;
+            var v1=1146;
+            var v2=0;
+            var v3=0;
+            var v4='46.146.59.237';
+            var v5='Chrome';
+            var v6='Windows';
+            var v7='ru';
+            var v8='';
+            var v9='';
+            var v10='';
+            var v11='';
+            var v12='';
+            </script>
+            <script src="js/vtracker.js" type="text/javascript"></script>    
+</head>
+    <body>
+            <div class="section block-1">
+            <div class="wrap">
+                <div class="top-title">
+                    <h1>ДИЗАЙНЕРСКИЙ ПОЯС</h1>
+                    <h2><span>24К VICTORIA LUX</span></h2>
+                    <p>с золотым или серебряным напылением</p>
+                </div>
+                <div class="sale">-53%</div>
+                <div class="top-cost-cont clearfix">
+                    <div>
+                        <dl class="cost old-cost">
+                            <dt>Обычная цена:</dt>
+                            <dd>2750р.</dd>
+                        </dl>
+                        <dl class="cost new-cost">
+                            <dt>Цена по акции:</dt>
+                            <dd>1290р.</dd>
+                        </dl>
+                    </div>
+                </div>
+                <div class="center"><a href="#zak" class="button animate">Сделать заказ</a></div>
+            </div>
+        </div>
+        <div class="section block-2">
+            <div class="wrap">
+                <p>Виктория Бекхэм, еще недавняя солистка популярной группы Spice Girls, сегодня является одним из лучших дизайнеров женской одежды мира. Она создает неповторимые, уникальный образы, ярко отражающие Вашу индивидуальность. Виктория имеет ряд наград в области моды, а ее имя увенчано на аллее звезд в Голливуде и ценится во всем мире.</p>
+                <div class="text-com clearfix">
+                    <img src="images/photo.jpg" alt="дизайнерский пояс 24К Victoria Lux">
+                    <p>
+                        Считаю пояс 24К Victoria Lux удачным. Он подходит под любой тон платьев. Неплохо смотрится на джинсовой одежде. Предпочтительными тонами для него считаю, черный, красный и салатовый. С этими цветами золото смотрится более гармонично. Изящная структура пояса подходит и под винтаж. Я довольна!
+                        <br/><span>Victoria Beckham</span> 
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section block-3">
+            <div class="wrap">
+                <h2>Пояс 24К Victoria Lux универсален и подойдет под любой цвет и практически под любой вид одежды</h2>
+                <div class="container clearfix">
+                    <div>
+                        <img src="images/girl-1.jpg" alt="дизайнерский пояс 24К Victoria Lux">
+                    </div>
+                    <div>
+                        <img src="images/girl-2.jpg" alt="дизайнерский пояс 24К Victoria Lux">
+                    </div>
+                    <div>
+                        <img src="images/girl-3.jpg" alt="дизайнерский пояс 24К Victoria Lux">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section block-4">
+            <div class="wrap">
+                <div class="container clearfix">
+                    <img src="images/body-1.jpg" alt="дизайнерский пояс 24К Victoria Lux">
+                    <div class="centr-img">
+                        <span>Растягивающийся пояс способен охватить талию до&nbsp;95 см.</span>
+                        <br/>
+                        <img src="images/body-3.jpg" alt="дизайнерский пояс 24К Victoria Lux">
+                    </div>
+                    <img src="images/body-2.jpg" alt="дизайнерский пояс 24К Victoria Lux">
+                </div>
+            </div>
+        </div>
+        <div class="section block-5">
+            <div class="wrap">
+                <div class="container clearfix">
+                    <img src="images/tov-2.png" alt="дизайнерский пояс 24К Victoria Lux">
+                    <div class="tov-param">
+                        <ul>
+                            <li><b>Длина:</b> 68 см (растягивается до 95 см);</li>
+                            <li><b>Материал:</b> цельнометаллическое основание, 24К золотое покрытие;</li>
+                            <li><b>Застежка:</b> механическая, цельнометаллическая;</li>
+                            <li><i>* - в зависимости от освещения, реальный цвет может несколько отличаться.</i></li>
+                        </ul>
+                        <a href="#zak" class="button animate">Сделать заказ</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section block-6">
+            <div class="wrap">
+                <div class="container">
+                    <h2>Фото 24K Victoria Lux <span class="gold">Gold</span></h2>
+                    <div class="clearfix">
+                        <div><img src="images/gal-1-4.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                        <div><img src="images/gal-1-3.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                        <div><img src="images/gal-1-2.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                        <div><img src="images/gal-1-1.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                    </div>
+                </div>
+                <div class="container">
+                    <h2>Фото 24K Victoria Lux <span class="silver">Silver</span></h2>
+                    <div class="clearfix">
+                        <div><img src="images/gal-2-4.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                        <div><img src="images/gal-2-3.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                        <div><img src="images/gal-2-2.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                        <div><img src="images/gal-2-1.jpg" alt="дизайнерский пояс 24К Victoria Lux"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section block-7">
+            <div class="wrap">
+                <h2>Отзывы и рекомендации можете присылать нам на электронную почту: victorialux@mail.ru</h2>
+                <div class="container slider-cont">
+                    <div class="rew-item rew-1 clearfix">
+                        <div></div>
+                        <p>
+                            “Здравствуйте. Меня зовут Людмила, пишу из Сочи. На этой неделе получила посылочку, привез курьер. Заинтересовал акционный товар - ремень золотой за смешную цену. Видела такой в Европе, его стоимость была выше 100 евро. Честно, заказала почти сразу. Когда увидела, то оказалась довольна. Цвет хороший, не сильно яркий, то что надо. Серебряный ремень тоже очень эстетично смотрится почти на любой одежде. Ремень достаточно хорошо тянется, поэтому можно носить и на верхней одежде. Чуть намочила, чтобы попробовать как он с водой. В принципе ничего не облезло, но попадать под сильный дождь в нем не хочу))) Классная и качественная вещь, спасибо!”
+                            <br/><span>Людмила, Сочи</span>
+                        </p>
+                    </div>
+                    <div class="rew-item rew-2 clearfix">
+                        <div></div>
+                        <p>
+                            “Здравствуйте victorialux. Меня зовут Светлана, пишу из далекого Красноярска. Неделю назад получила свою посылку с ремнями. Оплатила при получении, за что спасибо. Сейчас время опасное делать предоплату. Когда первый раз одела, не могла ни нарадоваться. Ремни сразу показались стойкими и очень качественными. Действительно хорошо растягиваются, поэтому мне на мою талию в 78 сантиметров очень легко его надевать. Теперь это мои самые любимые ремни, причем и золотой, и серебряный. Ношу как на платьях, так иногда и на верхней одежде, причем самой разной. Муж мой сразу его заметил, и даже сказал что мне он очень идет. Ну и фото делаю, с телефона. Спасибо огромное за хорошую цену и хорошую вещь!”
+                            <br/><span>Светлана, Красноярск</span>
+                        </p>
+                    </div>
+                    <div class="rew-item rew-3 clearfix">
+                        <div></div>
+                        <p>
+                            “Добрый день. Заказала у вас на сайте ремень от Виктории Бекхэм, точнее два, и еще подвеску от Виктории. Золотой и серебряный. Ремни пришли через 9 дней после заказа, я живу в Екатеринбурге, поэтому это нормальный срок. Получала на почте, оплатила и забрала. Спасибо за смс уведомления о отслеживании. Очень хороший сервис у вас. Как получила ремни, сразу начала пользоваться. Ремень хороший, нигде не провисает, удобно сидит, нигде не жмет. Подвеска тоже нравится. Давненько не делала таких хороших покупок. Подруги обзавидовались, расказала им про ваш сайт, тоже будут заказывать!”
+                            <br/><span>Наталья, Екатеринбург</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section block-8">
+            <div class="wrap">
+                <div class="container clearfix">
+                    <div class="deliv-item deliv-1">
+                        <div></div>
+                        <p>Доставка почтой, бандеролями 1&#8209;го класса, в течение 5&#8209;10 рабочих дней. Стоимость доставки товара от 390р.</p>
+                    </div>
+                    <div class="deliv-item deliv-2">
+                        <div></div>
+                        <p>Никаких предоплат! Оплата заказов осуществляется непосредственно по факту получения заказа.</p>
+                    </div>
+                    <div class="deliv-item deliv-3">
+                        <div></div>
+                        <p>Вы вправе отказаться от покупки в течение 14 дней с момента получения заказа, независимо от причины возврата.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section block-9" id="zak">
+            <div class="wrap">
+                <div class="sale">-53%</div>
+                <div class="container">
+                    <div class="timer">
+                        <p>До конца акции осталось:</p>
+                        <div class="el-timer"></div>
+                    </div>
+                    <div class="bot-cost clearfix">
+                        <dl class="cost old-cost">
+                            <dt>Обычная цена:</dt>
+                            <dd>2750р.</dd>
+                        </dl>
+                        <dl class="cost new-cost">
+                            <dt>Цена по акции:</dt>
+                            <dd>1290р.</dd>
+                        </dl>
+                    </div>
+                    <form action="call.php" method="POST" onsubmit="if(this.phone.value==''){alert('Введите Ваш номер телефона');return false}">
+                        <div><input type="text" name="name" placeholder="Введите Ф.И.О"></div>
+                        <div><input type="text" name="tel" placeholder="Введите телефон" required></div>
+                        <div><button class="button">Заказать</button></div>     
+                    </form> 
+                </div>
+                <div class="footer" style="vertical-align: middle;" align="center"><div align="center" class="left-bottom">
+                ООО "ТОРГСЕРВИС" ОГРН 1162130052732
+<br>
+г. Чебоксары, ш. Марпосадское, дом 1Б
+
+</div>
+
+<a href="http://cludio.ru" class="link-bottom" target="_blank">
+<div align="center" class="right-bottom">
+Разработка и продвижение
+<br>
+<img src="img/copyright2.png" style="margin-top: 10px;" width="80px">
+</div>
+</a>
+
+       
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+    </body>
+</html>   

@@ -1,0 +1,325 @@
+
+<!DOCTYPE html>
+<html>
+<head lang="ru">
+    <meta charset="UTF-8">
+    <title>EUPHORIN - эффективное средство для поднятия настроенияи жизненного тонуса!</title>
+    <meta name="description" content="Эфорин - самое эффективное средство при борьбе с депрессией, подавленном и угнетенном настроении! Почувствуйте эффект с первого применения"/>
+    <meta name="keywords" content="euphorin, купить эфорин, борьба с депрессией, средство от депрессии, гормон радости">
+    <meta name="viewport" content="width=device-width">
+    <link rel="icon" type="http://euphorin.cludo.ru" href="favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/buyer-style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/jquery.placeholder.js"></script>
+    <script>
+        new WOW().init();
+        $(function(){ 
+            jQuery('input[placeholder], textarea[placeholder]').placeholder();
+            $('a[href^="#"]').click(function (){
+                var elementClick = $(this).attr("href");
+                var destination = $(elementClick).offset().top;
+                jQuery("html:not(:animated), body:not(:animated)").animate({scrollTop: destination}, 800);
+                return false;
+            });
+        }); 
+    </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="css/roboto.css">
+        <script src="js/jquery.js" type="text/javascript"></script>
+        <script src="js/plugins.js" type="text/javascript"></script>
+        
+        <script src="js/detect.js" type="text/javascript"></script>
+        
+        <link href="css/popup-m1-style.css?v=4" rel="stylesheet" type="text/css"/>
+                <script src="js/popup-m1.js?v=4" type="text/javascript"></script>
+
+                <script type="text/javascript">
+                $(function(){
+                    M1.initComebacker(3000);
+                    var M1Text = {
+                        'validation_name': 'Укажите корректные ФИО.',
+                        'validation_phone1': 'Номер телефона может содержать только цифры, символы "+", "-", "(", ")" и пробелы.',
+                        'validation_phone2': 'В вашем телефоне слишком мало цифр.',
+                        'comebacker_text': 'ВНИМАНИЕ'
+                    };
+                    M1.validateAndSendForm(false, M1Text);
+                });
+                </script>
+        
+        <script>
+        var vPlayer = null;
+            $(function() {
+                
+                
+                var product = 1146,
+                    url = location.href,
+                    length = 0,
+                    keyVal = '',
+                    arFio = [],
+                    arPhone = [];
+                        
+                $('input[name=\'phone\']').bind('keyup change', function(){
+                    var form = $(this).parents('form'),
+                        name = form.find('input[name=\'name\']').val(),
+                        phone;
+                    
+                    phone = $(this).val().replace(/\D+/g,'');
+                    if(phone.length >= 8){
+                        getFormData();
+                        $.ajax({
+                          type: 'POST',
+                          url: 'http://m1-shop.ru/send_stat_order/',
+                          data: {
+                            name: name,
+                            phone: phone,
+                            name_json: JSON.stringify(arFio),
+                            phone_json: JSON.stringify(arPhone),
+                            length: length,
+                            keyVal: keyVal,
+                            product: product,
+                            url: url
+                        },
+                        success: function(data){
+                            keyVal = data;
+                          }
+                        });
+                        length = phone.length;
+                    }
+                });
+                
+                $('form').submit(function(){
+                    if(keyVal.length > 0){
+                        $.ajax({
+                            type: 'POST',
+                            url: 'http://m1-shop.ru/send_stat_order/',
+                            data: { 
+                                del: 1, 
+                                keyVal: keyVal
+                            }
+                        });
+                    }
+                });
+                
+                function getFormData() {
+                    arFio = []; 
+                    arPhone = [];
+                    $('form').each(function(){
+                        var phone = $(this).find('input[name=\'phone\']').val();
+                        var fio = $(this).find('input[name=\'name\']').val();
+                        phone = phone.replace(/\D+/g,'');
+                        if (phone.length >= 8){
+                            arPhone.push(phone.toString());
+                            if(typeof fio != 'undefined')
+                                arFio.push(fio.toString());
+                        }
+                    });
+                }
+            });
+        </script><script>
+                function pixel_func() {
+                console.log( 'log' );
+                //document.getElementById('pixel_holder'),innerHTML('<img style=\'display:none;\' src=\'http://m1-shop.ru/pixel?u=1&track=ref%3D8%3B+s%3Dsv%3B+w%3D%3B+t%3D%3B+p%3D%3B+m%3D&landing_id=&prokl_id=&ip=46.146.59.237&lnk=0&product=1146&sale=phone&is_organic=1&tel=phone&fio=fio&host=true-gooods.ru/euphorin/&useragent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4zOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNjEuMC4zMTYzLjEwMCBTYWZhcmkvNTM3LjM2&user_device=0&showcase_from=0&ua_device=Chrome&ua_os=Windows&is_backorder=1\'>');
+                $('body').append('<img style=\'display:none;\' src=\'http://m1-shop.ru/pixel?u=1&track=ref%3D8%3B+s%3Dsv%3B+w%3D%3B+t%3D%3B+p%3D%3B+m%3D&landing_id=&prokl_id=&ip=46.146.59.237&lnk=0&product=1146&sale=phone&is_organic=1&tel=phone&fio=fio&host=true-gooods.ru/euphorin/&useragent=TW96aWxsYS81LjAgKFdpbmRvd3MgTlQgNi4zOyBXaW42NDsgeDY0KSBBcHBsZVdlYktpdC81MzcuMzYgKEtIVE1MLCBsaWtlIEdlY2tvKSBDaHJvbWUvNjEuMC4zMTYzLjEwMCBTYWZhcmkvNTM3LjM2&user_device=0&showcase_from=0&ua_device=Chrome&ua_os=Windows&is_backorder=1\'>');
+                }
+                setTimeout(pixel_func, 120000);
+                </script><script type="text/javascript">
+            var ref=8;
+            var get=1;
+            var v1=1146;
+            var v2=0;
+            var v3=0;
+            var v4='46.146.59.237';
+            var v5='Chrome';
+            var v6='Windows';
+            var v7='ru';
+            var v8='';
+            var v9='';
+            var v10='';
+            var v11='';
+            var v12='';
+            </script>
+            <script src="js/vtracker.js" type="text/javascript"></script></head>
+<body>
+<div class="bg1">
+    <div class="bg1-1">
+        <div class="g-center">
+            <div class="b-header">
+                <div class="top-cont">
+                    <div class="logo"><img src="img/logo.png" alt="Средство для поднятия настроения" title="Cредство для поднятия настроения"></div>
+                    <p>ПОЧУВСТВУЙТЕ ЭФФЕКТ<br/>С ПЕРВОГО ПРИМЕНЕНИЯ</p>
+                </div>
+                <div class="g-title upper">эффективное средство для поднятия настроения<br/>и жизненного тонуса!</div>
+                <div class="b-can"><img src="img/can.png" alt=""></div>
+                <div class="g-offer upper">скидка 25%</div>
+                <div class="new-price"> всего за <span style="font-size: 46px;"><small><del style="color: #555555; font-size: 30px;">1.200</del></small> 900 руб.</span></div>
+                <a href="#order" class="g-button upper wow rubberBand">заказать сейчас</a>
+                <div class="b-header-list" data-wow-duration="1s">
+                    <p class="wow flipInY" data-wow-duration="1s">Эффективен при:</p>
+                    <ul>
+                        <li class="wow flipInY" data-wow-duration="1.5s">Депрессиях, депрессивных состояниях</li>
+                        <li class="wow flipInY" data-wow-duration="2s">Плохом, подавленном и угнетенном настроении</li>
+                        <li class="wow flipInY" data-wow-duration="2.5s">Снижении интереса к жизни</li>
+                        <li class="wow flipInY" data-wow-duration="3s">Панических атаках, истерических приступах</li>
+                        <li class="wow flipInY" data-wow-duration="3.5s">Моральной истощенности и повышенной утомляемости</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg2">
+    <div class="g-center">
+        <div class="b-wtf">
+            <div class="g-title upper wow fadeInLeft" data-wow-duration="1s"><span>Эфорин</span> &ndash; единственный на российском рынке препарат, призванный бороться с депрессиями, посредством синтеза <span>«гормона радости»</span></div>
+            <div class="b-wtf-text wow fadeInLeftBig">
+                <img src="img/k.png" alt="">
+                <ul>
+                    <li>Эффективный:</li>
+                    <li>естественным образом борется с биохимическими причинами затяжных стрессов депрессий и депрессивных состояний;</li>
+                    <li>препятствует развитию и прогрессированию вегетососудистой дистонии и мигрени.</li>
+                </ul>
+                <ul>
+                    <li>Положительно воздествует:</li>
+                    <li>обладает умеренным психостимулирующим действием;</li>
+                    <li>улучшает настроение;</li>
+                    <li>уменьшает чувство страха и напряженности;</li>
+                    <li>повышает двигательную активность;</li>
+                    <li>нормализует сон и аппетит, а так же подавляет развитие мигренозных болей.</li>
+                </ul>
+            </div>
+            <div class="k wow fadeInRightBig"></div>
+        </div>
+    </div>
+</div>
+<div class="bg3">
+    <div class="g-center">
+        <div class="b-benefits">
+            <div class="g-title upper wow fadeInRight" data-wow-duration="1s">преимущества <span>эфорина</span></div>
+            <img src="img/tov.png" alt="преимущества эфорина" title="преимущества эфорина">
+            <ul class="b-benefits-list">
+                <li class="wow fadein" data-wow-duration="0.3s"><span>Эффективен</span> с первых дней применения;</li>
+                <li class="wow fadein" data-wow-duration="0.6s">Имеет <span>широкий спектр действия</span> и возможность длительного применения;</li>
+                <li class="wow fadein" data-wow-duration="0.9s"><span>Не вызывает</span> зависимости и привыкания, а так же <span>не имеет</span> эффекта отмены;</li>
+                <li class="wow fadein" data-wow-duration="1.2s"><span>Не вызывает</span> ухудшения мышления и сонливости;</li>
+                <li class="wow fadein" data-wow-duration="1.5s">В отличие от многих антидепрессантов <span>не подавляет</span> выработку собственных нейрогормонов и нейромедиаторов;</li>
+                <li class="wow fadein" data-wow-duration="1.8s"><span>Имеет длительно сохраняющийся</span> результат применения;</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="bg5">
+<div class="bg5-1">
+    <div class="g-center">
+        <div class="g-title upper wow fadeInRight" data-wow-duration="1s">состав и способ применения</span></div>
+        <div class="b-consist">
+            <div class="b-consist-item">
+                <ul class="b-consist-list upper">
+                    <li>l-глицин</li>
+                    <li class="last">гуарана</li>
+                    <li>l-глютамин</li>
+                    <li class="last">пустырник</li>
+                    <li>таурин</li>
+                    <li class="last">витамин b6</li>
+                </ul>
+            </div>
+            <div class="b-can2"></div>
+            <div class="b-consist-item">
+                <div class="b-consist-text">
+                    <p><span>Рекомендации по применению:</span><br>
+                        Взрослым 3 раза в день во время еды. Продолжительность приема 1 месяц, при необходимости прием можно повторить.
+<br><br>
+                        <span>Противопоказания:</span><br>
+                        Индивидуальная непереносимость компонентов продукта, периоды интенсивной терапии при онкологических заболеваниях, беременность и кормление грудью.
+                    </p>
+                </div>
+            </div>
+            <div class="b-consist-item">
+                <div class="b-consist-footer upper">
+                    <div class="logo"><img src="img/logo.png" alt="Эфорин" title="Эфорин"></div>
+                    <p>Совместим с другими фармацевтическими препаратами.<br/>Безрецептурный препарат.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+<div class="bg7">
+    <div class="g-center">
+        <div class="b-delivery">
+            <div class="g-title upper wow fadeInLeft" data-wow-duration="1s">как заказать</div>
+            <div class="b-delivery-step upper">
+                <div class="b-delivery-steps wow flipInY" data-wow-duration="1s">
+                    <span class="one"></span>
+                    <p>заполните <br> форму заявки</p>
+                </div>
+                <div class="b-delivery-steps wow flipInY" data-wow-duration="2s">
+                    <span class="two"></span>
+                    <p>мы свяжемся с <br>вами в течении часа</p>
+                </div>
+                <div class="b-delivery-steps wow flipInY" data-wow-duration="3s">
+                    <span class="three"></span>
+                    <p>уточните детали <br>заказа</p>
+                </div>
+                <div class="b-delivery-steps wow flipInY" data-wow-duration="4s">
+                    <span class="four"></span>
+                    <p>получение <br>заказа</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="bg1" id='order'>
+    <div class="bg1-1">
+        <div class="g-center">
+            <div class="b-form">
+                <div class="g-title upper wow rubberBand"><span>внимание</span> осталось 9 банок</div>
+                <div class="b-can"><img src="img/can.png" alt=""></div>
+                <div class="rrr"></div>
+                <div class="g-offer upper">скидка 25%</div>
+                <form action="call.php" method="post" onsubmit="if(this.phone.value==''){alert('Введите Ваш номер телефона!');return false}return true;">
+                    <div class="new-price"> всего за <span style="font-size: 46px;"><small><del style="color: #555555; font-size: 30px;">1.200</del></small> 900 руб.</span></div>
+                    <input type="text" placeholder="Ваше имя" name="name">
+                    <input type="tel" placeholder="Ваш телефон" name="tel" required>
+                    <input type="submit" class="g-button upper" value="заказать">
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+           <p style="text-align: center">ООО Грин-Стайл, ИНН 7713725115, ОГРН 1117746196765  127474, г Москва, шоссе Дмитровское, д 80 </p><br/>
+<a href="http://cludio.ru" target="_blank" style="color: #255559;">
+<div align="center">
+Разработка и продвижение
+<br>
+<img src="img/copyright.png" style="margin-top: 10px;" width="120px">
+</div>
+</a>
+    </div>
+</div>
+
+
+
+</body>
+</html>

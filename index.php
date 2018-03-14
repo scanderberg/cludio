@@ -993,7 +993,7 @@ if( !$detect->isMobile() ){ ?>
 <h1>Гироскутеры от
 <br>
 производителя</h1>
-<a target="_blank" href="http://giroskuter.cludo.ru">
+<a target="_blank" href="/giroskuter">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
@@ -1016,7 +1016,7 @@ if( !$detect->isMobile() ){ ?>
 <h1>Срочный ремонт
 <br>
 авто</h1>
-<a target="_blank" href="http://avto-v-remont.cludo.ru">
+<a target="_blank" href="/auto">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
@@ -1039,7 +1039,7 @@ if( !$detect->isMobile() ){ ?>
 <h1>Гироскутеры и
 <br>
 Моноколёса</h1>
-<a target="_blank" href="http://99wheel.cludo.ru">
+<a target="_blank" href="/99wheel">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
@@ -1062,7 +1062,7 @@ if( !$detect->isMobile() ){ ?>
 <h1>Короли
 <br>
 дорог</h1>
-<a target="_blank" href="http://kranoff.cludo.ru">
+<a target="_blank" href="/kranoff">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
@@ -1110,7 +1110,7 @@ if( !$detect->isMobile() ){ ?>
 <br>
 эйфорина
 </h1>
-<a target="_blank" href="http://euphorin.cludo.ru">
+<a target="_blank" href="/euphorin">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
@@ -1134,7 +1134,7 @@ if( !$detect->isMobile() ){ ?>
 <br>
 пояс
 </h1>
-<a target="_blank" href="http://victoria-lux.cludo.ru">
+<a target="_blank" href="/victoria">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
@@ -1158,7 +1158,7 @@ if( !$detect->isMobile() ){ ?>
 <br>
 клуб
 </h1>
-<a target="_blank" href="http://billiard.cludo.ru">
+<a target="_blank" href="/billiard">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
@@ -1182,7 +1182,7 @@ if( !$detect->isMobile() ){ ?>
 <br>
 посёлок
 </h1>
-<a target="_blank" href="http://vitiaz.cludo.ru">
+<a target="_blank" href="/vitiaz">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>
