@@ -1039,7 +1039,7 @@ if( !$detect->isMobile() ){ ?>
 <h1>Гироскутеры и
 <br>
 Моноколёса</h1>
-<a target="_blank" href="/99wheel">
+<a target="_blank" href="/99wheels">
 <button type="button" class="btn btn-primary btn-lg get-project">ПОСМОТРЕТЬ</button>
 </a>
 <br>

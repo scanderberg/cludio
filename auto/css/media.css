@@ -1,0 +1,237 @@
+@media only screen and (max-width: 1200px) {
+
+div.niz-tel {
+margin-top: 5px!important;
+
+}	
+
+div.menu ul li {
+font: 16px helveticaneuecyrmedium, Arial, sans-serif;
+
+}
+
+div.niz-text {
+padding-top: 15px!important;
+
+}
+
+}
+
+@media only screen and (max-width: 1200px) {
+
+img.logo-niz {
+margin-top: 30px!important;
+
+}
+
+}
+
+@media only screen and (max-width: 992px) {
+
+
+
+div.niz-text {
+padding-top: 20px!important;
+
+}
+
+div.niz-tel {
+font-size: 32px!important;
+margin-top: 10px!important;
+margin-left: 0px!important;
+
+}	
+
+
+
+}
+
+@media only screen and (max-width: 900px) {
+
+div.menu ul li {
+font: 12px helveticaneuecyrmedium, Arial, sans-serif;
+}
+
+img.logos {
+width:140px;
+}
+
+div.verx-mobile {
+display: none;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+div.niz-text {
+margin-top: 8px!important;
+
+}
+
+.copyright-block {
+padding-top: 15px!important;
+
+}
+
+.niz-text {
+padding-top: 0px!important;
+
+}
+
+
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+
+div.capt-container {
+margin-top: -130px!important;
+display: block!important;
+color: #1b96a9;
+text-shadow: 1px 1px 2px black;
+
+}
+
+a.fc-btn {
+
+margin-bottom: 50px!important;
+
+}
+
+div.capt-container span {
+color: #ffffff;
+text-shadow: 1px 1px 2px black;
+
+}
+
+div.phone {
+margin-top: -0px!important;
+
+}
+
+
+	div.verx-mobile {
+display: none;
+
+}
+
+div.verx {
+
+padding-left: 20px;
+padding-right: 20px;
+
+}
+
+div.menu ul li.image {
+margin-left: 80px!important;
+}
+
+img.logos {
+}
+
+a.consult, a.garantii, a.remont, a.diag, a.otzivi, a.maps {
+
+display: none!important;
+
+}
+
+div.menu ul a.mobile {
+margin-top: 14px!important;
+display: inline-block;
+float: right!important;
+text-align: right!important;
+}
+
+li.b-05-parts-item {
+vertical-align: middle!important;
+
+}	
+
+li.b-05-parts-item .active {
+vertical-align: middle!important;
+
+}
+
+}
+
+@media only screen and (max-width: 600px) 
+{
+
+	div.verx-mobile {
+display: none;
+
+}
+
+div.menu ul li.image {
+margin-left: 0px!important;
+}
+
+div.verx {
+text-align: left!important;
+
+}
+
+div.menu {
+text-align: left!important;
+
+}
+
+li.b-05-parts-item {
+vertical-align: middle!important;
+
+}	
+
+li.b-05-parts-item .active {
+vertical-align: middle!important;
+
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 500px) 
+{
+
+li.b-05-parts-item {
+font-size: 14px!important;
+vertical-align: middle!important;
+
+}	
+
+li.b-05-parts-item .active {
+font-size: 14px!important;
+vertical-align: middle!important;
+
+}
+
+div.verx-mobile {
+display: none;
+
+}
+
+div.menu ul li.image {
+margin-left: 0px!important;
+}
+
+div.verx {
+text-align: left!important;
+
+}
+
+div.menu {
+text-align: left!important;
+
+}
+
+
+
+}
+

@@ -1,0 +1,5 @@
+INSERT INTO templates (id, name, user_id, thumbnail, color, category)
+VALUES (20, 'Avto', 0, 'templates/avto/img/b-01-02.png', 'blue', 'Landing Page');
+
+INSERT INTO CLIENTS (FIO, ADDRESS, C_NO, PHONE, CITY)
+VALUES (1, 'Иванов И.И.', 'Вокзальная 3', 'Москва', '09599911100');
